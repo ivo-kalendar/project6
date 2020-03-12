@@ -6,13 +6,29 @@ body {
 	margin: 0;
 	font-family: 'Quicksand', sans-serif;
 	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 2rem;
 }
 
 h1 {
 	font-size: 5em;
 	text-shadow: 0 0 8px rgba(0, 0, 0, .3);
+}
+
+.counter-parrent {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	flex-flow: column;
+	flex-direction: column;
+	border-radius: 10px;
+	border: 1px solid red;
+}
+
+.testClass {
+	width: 500px;
+	height: 200px;
+	border-radius: 10px;
+	border: 1px solid red;
 }
